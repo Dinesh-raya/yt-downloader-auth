@@ -10,6 +10,15 @@ import time
 
 
 st.set_page_config(page_title='Streamlit', page_icon='🐼', initial_sidebar_state='collapsed')
+st.subheader(':rainbow[HI THERE WELCOME TO :_YOUTUBE VIDEO DOWNLOADER_] :sunglasses:')
+
+st.markdown(f"""
+            <style>
+            .stApp {{background-image: url("https://images.unsplash.com/photo-1516557070061-c3d1653fa646?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+                     background-attachment: fixed;
+                     background-size: cover}}
+         </style>
+         """, unsafe_allow_html=True)
 
 
 try:
@@ -45,7 +54,7 @@ try:
 
                 #yt app
 
-
+                st.header(':rainbow[HI THERE WELCOME TO :_YOUTUBE VIDEO DOWNLOADER_] :sunglasses:')
 
                 
                 def download_youtube_video(url, resolution):
@@ -163,7 +172,7 @@ try:
                 st.markdown(
                     """
                     ---
-                    Created with ❤️ by SnakeByte
+                    Created with ❤️ by Dinesh
                     
                     """
                 )
