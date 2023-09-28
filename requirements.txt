@@ -1,0 +1,5 @@
+deta==1.2.0
+Requests==2.31.0
+streamlit==1.27.0
+streamlit_authenticator==0.2.3
+yt_dlp==2023.9.24
